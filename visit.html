@@ -93,6 +93,55 @@
         height: 120px;
         border-radius: 30%; /* To make the image circular */
     }
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        h1 {
+            text-align: center;
+            color: #E36414;
+            margin-top: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-container div {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            max-width: 600px; /* Adjust max-width as needed */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .image-container p {
+            font-size: 16px; /* Adjust font size as needed */
+            color: #333;
+            margin-top: 0;
+        }
 
 </style>
 
@@ -148,51 +197,44 @@
                 <img src="Images/History/christian.png" alt="Attractions and Landmarks">
             </a>
         </div>
-
     </div>
 
-    <div>
-        <h3>Attractions and Landmarks</h3>
-        <img src="Images/tibidabo.png" alt="Tibidabo">
-        <img src="Images/sagradafamilia.png" alt="sagradafamilia">
-        <img src="Images/picassomuseum.png" alt="picassomuseum">
-        <img src="Images/oldtown.png" alt="oldtown">
-        <p></p>
+    <h1>Discover Barcelona</h1>
+    <div class="container2">
+        <div class="image-container">
+            <div>
+                <img src="Images/tibidabo.png" alt="Tibidabo">
+                <p>Tibidabo - Tibidabo is a mountain overlooking Barcelona offering stunning views of the city and the coastline. It is home to Tibidabo Amusement Park, one of the oldest amusement parks in the world, dating back to 1901. The park features a variety of rides and attractions, including a vintage carousel, a ferris wheel, and a roller coaster. Visitors can also explore the Temple Expiatori del Sagrat Cor, a beautiful church located at the summit of Tibidabo.</p>
+            </div>
+            <div>
+                <img src="Images/sagradafamilia.png" alt="Sagrada Familia">
+                <p>Sagrada Familia - The Sagrada Familia is an iconic basilica designed by the renowned Catalan architect Antoni Gaudí. Construction of the basilica began in 1882 and is still ongoing, with an expected completion date in the early 21st century. The Sagrada Familia is known for its unique architectural style, combining Gothic and Art Nouveau elements. Visitors can marvel at the intricate facade sculptures, towering spires, and colorful stained glass windows that adorn the interior of the basilica.</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <div>
+                <img src="Images/club.png" alt="Nightlife">
+                <p>Nightlife - Barcelona boasts a vibrant and diverse nightlife scene, offering something for everyone. From trendy rooftop bars with panoramic views of the city to underground clubs pulsating with electronic music, the options are endless. Visitors can enjoy cocktails at beachfront lounges, dance the night away at world-renowned nightclubs, or experience traditional flamenco performances in atmospheric venues. Whether you're into live music, DJ sets, or cultural experiences, Barcelona's nightlife has it all.</p>
+            </div>
+            <div>
+                <img src="Images/bus.png" alt="Nightlife">
+                <p>Nightlife - Explore Barcelona's nightlife aboard one of the city's iconic party buses. These double-decker buses are equipped with state-of-the-art sound systems, LED lighting, and onboard bars, creating a unique party atmosphere on wheels. Passengers can enjoy panoramic views of Barcelona's illuminated landmarks as they dance to the latest beats and mingle with fellow partygoers. The party buses operate nightly, offering themed tours and special events for an unforgettable nightlife experience.</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <div>
+                <img src="Images/sailing.png" alt="Outdoor Activities">
+                <p>Outdoor Activities - Barcelona's coastal location makes it the perfect destination for outdoor enthusiasts. Visitors can enjoy a wide range of activities, from sailing and windsurfing to paddleboarding and kayaking. The city's beaches offer pristine sands and clear waters, ideal for sunbathing and swimming during the summer months. For a more adventurous experience, travelers can explore the nearby mountains and forests through hiking and mountain biking trails. Barcelona's mild climate and stunning natural landscapes make it an ideal destination for outdoor adventures all year round.</p>
+            </div>
+            <div>
+                <img src="Images/beach.png" alt="Outdoor Activities">
+                <p>Outdoor Activities - Barcelona's beaches are world-renowned for their golden sands, crystal-clear waters, and vibrant atmosphere. The city boasts several beaches along its coastline, each with its own unique charm and amenities. Visitors can relax on the bustling sands of Barceloneta Beach, known for its lively beach bars and water sports facilities. Alternatively, travelers seeking a more tranquil atmosphere can escape to the quieter shores of Bogatell Beach or Nova Icaria Beach. With a variety of beaches to choose from, Barcelona offers the perfect seaside retreat for every type of traveler.</p>
+            </div>
+        </div>
     </div>
-
-    <div>
-        <h3>Night life</h3>
-        <img src="Images/club.png" alt="Club">
-        <img src="Images/bus.png" alt="Bus">
-        <p></p>
-    </div>
-
-    <div>
-        <h3>Outdoor Activities</h3>
-        <img src="Images/sailing.png" alt="sailing">
-        <img src="Images/beach.png" alt="beach">
-        <img src="Images/montserrat.png" alt="montserrat">
-        <img src="Images/huskycoffee.png" alt="huskycoffee">
-        <p></p>
-    </div>
-
-    <div>
-        <h3>Family Activites</h3>
-        <img src="Images/kidsbike.png" alt="kidsbike">
-        <img src="Images/kidshike.png" alt="kidshike">
-        <img src="Images/farm.png" alt="farm">
-        <img src="Images/parkguell.png" alt="parkguell">
-        <p></p>
-    </div>
-
-    <div class>
-        <h3>Shopping Destinations</h3>
-        <img src="Images/diagonalmar.png" alt="diagonalmar">
-        <img src="Images/bullfight.png" alt="bullfight">
-        <img src="Images/lamaquinista.png" alt="lamaquinista">
-        <p></p>
-    </div>
-
-
+  
 </body>
 </html>
+
