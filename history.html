@@ -5,35 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barcelona</title>
     <style>
-        h1 {
+        #banner {
+            background-color: #E36414;
+            color: #9A031E;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: oblique;
+            font-size: 50px;
             text-align: center;
-        }
-
-        nav {
-            background-color: #9A031E;
-            color: #fff;
             padding: 20px;
-        }
-
-        ul {
-            list-style-type: none;
             margin: 0;
-            padding: 0;
+            border-radius: 5px;
         }
 
-        li {
-            margin: 0 15px;
-        }
+    .logo {
+        width: 25px;
+    }
 
-        a {
-            text-decoration: none;
-            color: #E36414;
-            font-weight: bold;
-        }
+    header {
+        background-color: #9A031E;
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; /* Align items to the left */
+    }
 
-        a:hover {
-            color: #FB8B24;
-        }
+    .navbar {
+        display: flex;
+        margin-left: 20px; /* Add margin to separate from the logo */
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    li {
+        margin: 0 15px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: #E36414;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: #FB8B24;
+    }
 
         .general {
             display: flex;
@@ -70,17 +93,47 @@
             font-weight: bold;
             padding: 20px;
         }
+
+        .explanation-box .image {
+            width: 100px;
+            height: 100px;
+            background-color: #fff;
+            margin-right: 10px;
+        }
+        .explanation-box .image.image1 {background-image: url('Images/History/prehistory.png'); background-size: contain;}
+        .explanation-box .image.image2 {background-image: url('Images/History/Ibrian.png');background-size: contain;}
+        .explanation-box .image.image3 {background-image: url('Images/History/Roman.png');background-size: contain;}
+        .explanation-box .image.image4 {background-image: url('Images/History/visigothic.png');background-size: contain;}
+        .explanation-box .image.image5 {background-image: url('Images/History/muslim.png');background-size: contain;}
+        .explanation-box .image.image6 {background-image: url('Images/History/christian.png');background-size: contain;}
+        .explanation-box .image.image7 {background-image: url('Images/History/medieval.png');background-size: contain;}
+        .explanation-box .image.image8 {background-image: url('Images/History/modern.png');background-size: contain;}
+        .explanation-box .image.image9 {background-image: url('Images/History/20thcentury.png');background-size: contain;}
+
+        .explanation-box .history-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .explanation-box li {
+            margin-bottom: 10px;
+        }
+
+
     </style>
 </head>
 <body>
-    <h1>BARCELONA</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="visit.html">VISIT</a></li>
-        </ul>
-    </nav>
-
+    <h1 id="banner">BARCELONA</h1>
+    <header>
+        <img class="logo" src="Images/Logo/LOGO.png" alt="LOGO">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="visit.html">VISIT</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="general">
         <div class="title-box">
             <h1>PREHISTORIC PERIOD</h1>
@@ -92,5 +145,105 @@
             <p>The Bronze Age brought significant advancements, including the development of agriculture and the establishment of settled communities in the region. These communities began to engage in more complex social structures and trade networks.</p>
         </div>
     </div>
+
+    <!-- Repeat the above structure for other periods -->
+
+    <div class="general">
+        <div class="title-box">
+            <h1>IBERIAN PERIOD</h1>
+        </div>
+        <div class="explanation-box">
+            <div class="image image2"></div>
+            <p>The Iberian period witnessed the emergence of indigenous Iberian tribes in the area of modern-day Barcelona.</p>
+            <p>These tribes established fortified settlements and engaged in extensive trade with other Mediterranean cultures, exchanging goods such as metals, pottery, and agricultural products.</p>
+            <p>The Iberians developed advanced metallurgical techniques, producing intricate metalwork, and created distinctive pottery and artwork that reflected their cultural identity and religious beliefs.</p>
+        </div>
+    </div>
+
+    <div class="general">
+        <div class="title-box">
+            <h1>ROMAN PERIOD</h1>
+        </div>
+        <div class="explanation-box">
+            <div class="image image3"></div>
+            <p>In the 1st century BC, Barcelona was conquered by the Romans and became known as Barcino.</p>
+            <p>Under Roman rule, Barcelona flourished as a major port and commercial hub, strategically located along the Mediterranean Sea.</p>
+            <p>The Romans constructed various public buildings, including temples, forums, and aqueducts, which showcased their engineering prowess and contributed to the city's urban development.</p>
+            <p>Christianity also began to spread in the region during this period, marking the beginning of a significant religious and cultural transformation.</p>
+        </div>
+    </div>
+    <div class="general">
+        <div class="title-box">
+            <h1>VISIGOTHIC PERIOD</h1>
+        </div>
+        <div class="explanation-box">
+            <div class="image image4"></div>
+            <p>Following the fall of the Western Roman Empire, Barcelona came under Visigothic rule.</p>
+            <p>The Visigoths maintained control over the city for several centuries, although their influence gradually declined over time.</p>
+            <p>Despite the political instability of this period, Barcelona continued to be an important center of trade and commerce in the region.</p>
+        </div>
+    </div>
+    
+    <div class="general">
+        <div class="title-box">
+            <h1>MUSLIM PERIOD</h1>
+        </div>
+        <div class="explanation-box">
+            <div class="image image5"></div>
+            <p>In the 8th century, Barcelona was conquered by Muslim forces during the Islamic expansion into the Iberian Peninsula.</p>
+            <p>The city, known as Barshiluna, became part of the Umayyad Caliphate, experiencing a period of cultural and architectural flourishing under Muslim rule.</p>
+            <p>Muslim influence left a lasting impact on Barcelona's architecture, language, cuisine, and cultural practices.</p>
+        </div>
+    </div>
+    
+    <div class="general">
+        <div class="title-box">
+            <h1>CHRISTIAN PERIOD</h1>
+        </div>
+        <div class="explanation-box">
+            <div class="image image6"></div>
+            <p>In the 9th and 10th centuries, Barcelona was gradually reconquered by Christian forces as part of the broader Reconquista.</p>
+            <p>The County of Barcelona was established, and the city became a major center of the Catalan-Aragonese Crown, playing a crucial role in the consolidation of Christian territories in the Iberian Peninsula.</p>
+            <p>Barcelona experienced a period of growth and prosperity as it expanded its maritime trade routes and exerted influence over neighboring territories.</p>
+        </div>
+    </div>
+    
+    <div class="general">
+        <div class="title-box">
+            <h1>MEDIEVAL PERIOD</h1>
+        </div>
+        <div class="explanation-box">
+            <div class="image image7"></div>
+            <p>During the medieval period, Barcelona continued to thrive as a trading hub and cultural center, attracting merchants, artisans, and scholars from across Europe and the Mediterranean.</p>
+            <p>The city witnessed the construction of iconic Gothic landmarks such as the Barcelona Cathedral and the Gothic Quarter, which remain symbols of its medieval heritage.</p>
+            <p>Barcelona became a leading center of the Mediterranean economy and culture, with flourishing industries such as textiles, shipbuilding, and finance.</p>
+        </div>
+    </div>
+    
+    <div class="general">
+        <div class="title-box">
+            <h1>MODERN PERIOD</h1>
+        </div>
+        <div class="explanation-box">
+            <div class="image image8"></div>
+            <p>In the 16th century, Barcelona faced economic decline and political instability due to conflicts such as the Reapers' War and the War of the Spanish Succession.</p>
+            <p>However, the city began to recover in the 18th century with the development of industries such as textile manufacturing, contributing to its economic revival.</p>
+            <p>During the 19th century, Barcelona experienced rapid industrialization and urban growth, becoming a major industrial and commercial center in Spain and Europe.</p>
+        </div>
+    </div>
+    
+    <div class="general">
+        <div class="title-box">
+            <h1>20TH CENTURY AND BEYOND</h1>
+        </div>
+        <div class="explanation-box">
+            <div class="image image9"></div>
+            <p>In the 20th century, Barcelona underwent significant urban renewal and modernization, propelled by events such as the Universal Exposition of 1888 and the International Exposition of 1929.</p>
+            <p>The city played a central role in the Spanish Civil War, experiencing intense political and social upheaval, including the Siege of Barcelona in 1939.</p>
+            <p>Following the Franco regime, Barcelona emerged as a vibrant cultural and artistic hub, hosting the 1992 Summer Olympics, which catalyzed further urban redevelopment and international recognition.</p>
+            <p>Today, Barcelona is renowned worldwide for its dynamic economy, rich cultural heritage, and cosmopolitan lifestyle, attracting millions of visitors each year to explore its historic landmarks, museums, and vibrant neighborhoods.</p>
+        </div>
+    </div>
+
 </body>
 </html>
