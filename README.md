@@ -1,5 +1,7 @@
 # This is the WEB DEVELOPMENT PROJECT that was based on creating a website about our hometown
 
+MUHAMMAD HASSAN TARIQ SHAFI ID: 52321291
+
 In this file I will be basically explaining my experience in having coded this website and how did I get to tackle these problems and come up with an efficient solution.
 
 First of all I came up with a very basic Html document structure, putting in a h1 tag and other very basic tags that I would further be styling. Now, obviously I used css but I did so in the same file using style tags inside the head tags inside my html file, rather than creating a different file and then linking it in.
