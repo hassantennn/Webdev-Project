@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <title>Barcelona</title>
     <style>
     body{
@@ -12,22 +13,23 @@
     }
 
     #banner {
-        background-color: #333;
-        background-position: 0 -160px;
-        color: white;
-        font-size: 100px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: center;
-        padding: 20px;
-        margin:0;
-    }
+            background: linear-gradient(to right, #222, #555, #1a1a1a);
+            border: 12px solid transparent; /* Transparent border */
+            color: #FFFFFF;
+            font-size: 6vw;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            box-shadow: inset 0 0 0 2px #333; /* Inward-rounded border */
+        }
 
     .logo {
         width:40px;
     }
 
     header , footer{
-        color: white;
+        color: #FFFFFF;
         font-family:Arial, Helvetica, sans-serif;
         font-weight: bold;
         background-color:#333 ;
@@ -58,11 +60,11 @@
         margin: 0 15px;
         padding:10px 30px 10px 30px;
         border-radius: 10px;
-        background-color: white;
+        background-color: #FFFFFF;
     }
 
     li:hover {
-        background-color: darkgrey;
+        background-color: #666;
     }
 
     a {
@@ -70,13 +72,11 @@
         color: #333;
         font-weight: bold;
     }
-    a:hover {
-        color: white;
-    }
+
 
     .general {
-    display: flex;
-}
+        display: flex;
+    }
 
     .emptybox {
         background-color: #d3d3d3;
@@ -85,7 +85,7 @@
 
     .explanation-box {
         background-color: #333;
-        color: white;
+        color: #FFFFFF;
         border-radius: 40px;
         font-size: 16px;
         padding: 20px;
@@ -125,12 +125,26 @@
 <body>
     <h1 id="banner">BARCELONA</h1>
     <header>
-        <img class="logo" src="Images/Logo/LOGO.png" alt="LOGO">
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="visit.html">VISIT</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="Images/Logo/LOGO.png" alt="LOGO">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="visit.html">VISIT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">MAIN</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <div class="general">
@@ -145,7 +159,7 @@
         </div>
     </div>
 
-
+   
     <div class="general">
         <div class="explanation-box">
             <div class="image image2"></div>
@@ -246,5 +260,10 @@
         <p>&copy; 2024 visitmycitybarcelona. All rights reserved.</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
 </body>
 </html>
+
