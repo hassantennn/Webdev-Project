@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barcelona</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Barcelona</title>
     <style>
-        body {
+        body{
             width: 100%;
-            margin: 0; /* Add this to remove default margin */
-            padding: 0; /* Add this to remove default padding */
+            margin: 0;
         }
 
         #banner {
@@ -22,14 +21,14 @@
             text-align: center;
             padding: 20px;
             margin: 0;
-            box-shadow: inset 0 0 0 2px #333; /* Inward-rounded border */
+            box-shadow: inset 0 0 0 3px #333; 
         }
-
         .logo {
             width:40px;
         }
 
-        header {
+
+        header , footer{
             color: #FFFFFF;
             background-color: #333;
             font-family:Arial, Helvetica, sans-serif;
@@ -74,16 +73,88 @@
         }
 
         .first{
-            background-image: url('Images/Home/main.jpg');
+            background-image: url('Images/Home/city3.webp');
+            background-size: cover;
+            background-position: center top;
+            height: 1000px;
+            border-bottom: 3px solid black;
+        }
+        .second{
+            background-image: url('Images/Home/city4.jpg');
             background-size: cover;
             background-position: center top;
             height: 1000px;
             border-bottom: 3px solid #000000;
+
+        }
+        .third{
+            background-image: url('Images/Home/city1.jpg');
+            background-size: cover;
+            background-position: center top;
+            height: 800px;
+            border-bottom: 3px solid black;
+
+        }
+        .fourth{
+            background-image: url('Images/Home/city2.jpg');
+            background-size: cover;
+            background-position: center top;
+            height: 1000px;
+            border-bottom: 3px solid #000000;
+
+        }
+
+        #section p{
+            background-color: #333;
+            font-size: 4.5vw;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 300px 20px 300px 20px ;
+            text-align: center;
+            border-bottom: 3px solid #000000;
+        }
+        
+        .container {
+            padding: 100px 0 100px 0 ;
+            text-align: center; 
+            background-color: #333;
+        }
+
+        .container > div {
+            display: inline-block; 
+            width: 49%;
+        }
+
+        #map {
+            text-align: center;
+        }
+        
+        #map iframe{
+            width: 70%;
+            border: #666 5px solid;
+        }
+
+        .social-links {
+            text-align: left; 
+            font-family: Arial, Helvetica, sans-serif;
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+
+        .social-links img {
+            width: 50px;
+            border-radius: 15px;
+        }
+
+        .social-links img:hover{
+            opacity: 0.5;
         }
 
 
+
     </style>
-    
 </head>
 <body>
     <h1 id="banner">BARCELONA</h1>
@@ -98,7 +169,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="home.html">HOME</a>
+                        <a class="nav-link" href="index.html">MAIN</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="visit.html">VISIT</a>
@@ -112,11 +183,40 @@
     </header>
 
     <div id="section">
+        <p>DISCOVER OUR BEACHES ! </p>
         <div class="first"> </div>
+        <p>DISSOLVE INTO OUR SPORTS CULTURE !</p>
+        <div class="second"> </div>
+        <p>FROM THE FINEST FOOD TO THE MOST FASCINATING STREETS !</p>
+        <div class="third"> </div>
+        <p>GET YOUR EYES NEW COLOURS !</p>
+        <div class="fourth"> </div>
     </div>
-    <!-- Bootstrap JS and jQuery (Required for Bootstrap functionality) -->
+
+    <div class="container">
+        <div id="map">
+            <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.03570556640625001%2C41.06692773019345%2C3.4963989257812504%2C42.37883631647602&amp;layer=mapnik" ></iframe><br/><small><a href="https://www.openstreetmap.org/#map=9/41.7262/1.7303">Look at bigger map</a></small>
+        </div>
+        
+        <div class="social-links">
+            <a href="https://wa.me/+446666666666"><img src="Images/sociallinks/Whatsapp.png" alt="Social Media 1"></a>
+            <p>Press the icon to search for multiple interesting locations.. 
+                <br>
+                <br>
+                If you have any further Inquiries, then please don't hesitate to contact us via Whatsapp
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 visitmycitybarcelona. All rights reserved.</p>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
+
+

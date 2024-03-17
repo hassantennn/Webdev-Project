@@ -1,237 +1,250 @@
-</html>
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Barcelona</title>
-<style>
-    
-    body {
+    <meta charset="UTF-8">
+    <title>Barcelona</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
-    }
-
-    #banner {
-        background-color: #333;
-        background-position: 0 -160px;
-        color: white;
-        font-size: 100px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: center;
-        padding: 20px;
-        margin:0;
-    }
-
-    .logo {
-        width:40px;
-    }
-
-    header , footer{
-        color: white;
-        font-family:Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        background-color:#333 ;
-        width: 100%;
-        text-align: center;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        justify-content: center;
-        border-bottom: 3px solid darkgray;
-    }
-
-    .navbar {
-        display: flex;
-        justify-content: left;
-        padding: 20px;
-    }
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-    }
-
-    li {
-        margin: 0 15px;
-        padding:10px 30px 10px 30px;
-        border-radius: 10px;
-        background-color: white;
-    }
-
-    li:hover {
-        background-color: darkgrey;
-    }
-
-    a {
-        text-decoration: none;
-        color: #333;
-        font-weight: bold;
-    }
-    a:hover {
-        color: white;
-    }
-
-    
-    .container {
-        background-color:#d3d3d3;
-        padding: 30px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); 
-    }
-
-    .box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color:darkgray;
-        padding-bottom: 50px;
-        margin: 20px;
-        border-radius: 10px;
-    }
-
-    .box h5{
-        font-size: 18px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color:#333;
-        font-style: italic;
-    }
-
-    .box a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    .box img {
-        width: 120px; 
-        height: 120px;
-        border-radius: 30%;
-    }
-
-    h5 {
-        text-align: center;
-        color: #E36414;
-        margin-top: 20px;
-    }
-
-    #in-between-section {
-        background-color: #333;
-        font-size: 50px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-weight: bold;
-        color: white;
-        margin: 0;
-        padding: 300px 0 300px 0 ;
-        text-align: center;
-        border-bottom: 3px solid black;
-    }
-
-    .container {
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #333;
-    }
-
-    .image-container {
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin:0 5% 30px 5%;
+        }
         
-    }
+        #banner {
+            background: linear-gradient(to right, #222, #555, #1a1a1a);
+            border: 12px solid transparent; /* Transparent border */
+            color: #FFFFFF;
+            font-size: 6vw; /* Adjusted font size for responsiveness */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            box-shadow: inset 0 0 0 2px #333; /* Inward-rounded border */
+        }
 
-    .image-container div {
-        display: inline-block;
-        width: 50%;
-        align-items: center;
-        text-align: left;
-        max-width: 600px; 
-        background-color: #333;
-        padding: 20px;
-        border-radius: 10px;
-    }
 
-    .image-container img {
-        width: 50%;
-        height: auto;
-        border-radius: 10px;
-    }
+        .logo {
+            width: 40px;
+        }
+        
+        header , footer{
+            color: #FFFFFF;
+            background-color: #333;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
 
-    .image-container p {
-        font-size: 16px;
-        color: white;
-        font-family:Arial, Helvetica, sans-serif;
-        text-align: center;
-        padding: 30px 0 30px 0;
-        font-weight: bold;
-    }
+        .navbar {
+            display: flex;
+            justify-content: left;
+            padding: 20px;
+        }
 
-    .container2 h4{
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 25px;
-        color: #333;
-        text-align: center;
-        margin: 180px;
-    }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Center the navbar items on mobile */
+        }
 
-</style>
+        li {
+            margin: 0 15px;
+            padding:10px 30px 10px 30px;
+            border-radius: 10px;
+            background-color: #FFFFFF;
+        }
+
+        li:hover {
+            background-color: #666;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+
+
+        .col-md-5, .col-md-7 {
+            background-color: #333;
+        }
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #666;
+            padding-bottom: 50px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .box h5{
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #333;
+            font-style: italic;
+        }
+
+        .box a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .box img {
+            width: 120px;
+            height: 120px;
+            border-radius: 30%;
+        }
+        
+        .box img:hover{
+            opacity: 0.7;
+        }
+
+        h5 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #in-between-section {
+            background-color: #333;
+            font-size: 6vw;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 300px 0 300px 0 ;
+            text-align: center;
+            border-bottom: 3px solid #000000;
+        }
+
+        .container2 h4{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            color: #333;
+            text-align: center;
+            margin: 180px;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-container div {
+            width: calc(50% - 20px); /* Adjust as needed */
+            background-color: #FFFFFF;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;      
+        }
+
+
+        .image-container p {
+            font-size: 16px;
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
 
 </head>
 
 <body>
-    <h1 id="banner">BARCELONA</h1>
-    <header>
-        <nav class="navbar">
+<h1 id="banner">BARCELONA</h1>
+<header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">
             <img class="logo" src="Images/Logo/LOGO.png" alt="LOGO">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="history.html">HISTORY</a></li>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">MAIN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">HISTORY</a>
+                </li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
-    <div class="container">
-        <div class="box">
-            <h5>ATTRACTIONS AND LANDMAKRS</h5>
-            <a href="#section1">
-                <img src="
-                Images/tibidabo.png" alt="Attractions and Landmarks">
-            </a>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-7">
+            <div class="box">
+                <h5>ATTRACTIONS AND LANDMARKS</h5>
+                <a href="#section1">
+                    <img src="Images/tibidabo.png" alt="Attractions and Landmarks">
+                </a>
+            </div>
         </div>
-        <div class="box">
-            <h5>NIGHT LIFE</h5>
-            <a href="#section2">
-                <img src="Images/club.png" alt="Attractions and Landmarks">
-            </a>
+        <div class="col-md-5">
+            <div class="box">
+                <h5>NIGHT LIFE</h5>
+                <a href="#section2">
+                    <img src="Images/club.png" alt="Nightlife">
+                </a>
+            </div>
         </div>
-        <div class="box">
-            <h5>OUTDOOR ACTIVITIES</h5>
-            <a href="#section3">
-                <img src="Images/sailing.png" alt="Attractions and Landmarks">
-            </a>
+        <div class="col-md-7">
+            <div class="box">
+                <h5>OUTDOOR ACTIVITIES</h5>
+                <a href="#section3">
+                    <img src="Images/sailing.png" alt="Outdoor Activities">
+                </a>
+            </div>
         </div>
-        <div class="box">
-            <h5>FAMILY AND FRIENDS</h5>
-            <a href="#section4">
-                <img src="Images/kidshike.png" alt="Attractions and Landmarks">
-            </a>
+        <div class="col-md-5">
+            <div class="box">
+                <h5>FAMILY AND FRIENDS</h5>
+                <a href="#section4">
+                    <img src="Images/kidshike.png" alt="Family and Friends">
+                </a>
+            </div>
         </div>
-        <div class="box">
-            <h5>SHOPPING DESTINATIONS</h5>
-            <a href="#section5">
-                <img src="Images/diagonalmar.png" alt="Attractions and Landmarks">
-            </a>
+        <div class="col-md-7">
+            <div class="box">
+                <h5>SHOPPING DESTINATIONS</h5>
+                <a href="#section5">
+                    <img src="Images/diagonalmar.png" alt="Shopping Destinations">
+                </a>
+            </div>
         </div>
-        <div class="box">
-            <h5>CULTURAL EXPERIENCES</h5>
-            <a href="#section6">
-                <img src="Images/History/christian.png" alt="Attractions and Landmarks">
-            </a>
+        <div class="col-md-5">
+            <div class="box">
+                <h5>CULTURAL EXPERIENCES</h5>
+                <a href="#section6">
+                    <img src="Images/History/christian.png" alt="Cultural Experiences">
+                </a>
+            </div>
         </div>
     </div>
+</div>
 
     <div id="in-between-section"><h1>Discover Barcelona</h1></div>
 
@@ -292,7 +305,7 @@
                 <p>In Barcelona, there are many shopping destinations to choose from, catering to different tastes. Families can visit Diagonal Mar, a mall by the sea, where they'll find a variety of stores, including fashion and electronics. The mall also has family-friendly amenities like a cinema and indoor playground, making it a fun shopping experience for all ages. After shopping, families can enjoy dining options offering various cuisines.</p>
             </div>
             <div>
-                <img src="Images/bullfight.png" alt="Outdoor Activities">
+                <img src="Images/lamaquinista.png" alt="Outdoor Activities">
                 <p>La Maquinista is a popular shopping center in Barcelona, located in the Sant Andreu district. It offers a wide range of stores and boutiques, including clothing, accessories, home goods, and electronics. Families can enjoy leisure facilities like a cinema and bowling alley, making it a great place for shopping and entertainment.</p>
             </div>
         </div>
@@ -309,8 +322,15 @@
             </div>
         </div>
     </div>
+    
     <footer>
         <p>&copy; 2024 visitmycitybarcelona. All rights reserved.</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
+
