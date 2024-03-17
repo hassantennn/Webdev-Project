@@ -1,0 +1,423 @@
+commit b3f8dee3087e3bcc1e7a7cab4b0517a7081e9960
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 14:31:56 2024 +0000
+
+    Update visit.html
+    
+    Adding a Logo and changing the title in the title bar
+
+commit abd5f94bc5c975feea40d3154ade5677e0c60935
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 14:31:24 2024 +0000
+
+    Update index.html
+    
+    Adding a Logo to the title bar and changing the website title
+
+commit b1c7ab2ef37e4f7447e0a6bc4e8cdfd6188fdf93
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 14:30:48 2024 +0000
+
+    Update history.html
+    
+    Adding Logo to the website title bar and changing the title as well
+
+commit 00fb4541de32e555ae8ad3f0f3ae0108004530a8
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 14:29:32 2024 +0000
+
+    Update home.html
+
+commit 7f3c7d120760e9f09ece207dab73d99cd7069c3c
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 03:46:31 2024 +0000
+
+    Update README.md
+
+commit a4c0edf54eb2d87cfb1db96abdf5614ed1840580
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 03:45:20 2024 +0000
+
+    Create README.md
+
+commit 97d572911d4c361c1e7ab42060c415303b3801a7
+Merge: 9095dfe 894b368
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 02:52:32 2024 +0000
+
+    Merge pull request #10 from hassantennn/Banner-update
+    
+    Banner update
+
+commit 894b368f12ee8cf1e054a118482bf3bd6aefaddf
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 02:52:10 2024 +0000
+
+    Update visit.html
+    
+    added motto and founding date to the banner
+
+commit 6004359dd0e59a52b95f9cebe25203c0f2970eb2
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 02:51:25 2024 +0000
+
+    Update index.html
+    
+    added motto and found date to the banner
+
+commit 61dd4d3e7728dbe8955ec1660abce2eac621e548
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 02:49:34 2024 +0000
+
+    Update home.html
+    
+    added motto and found date to banner
+
+commit 8d9dcba7dce245338e7050c6f30f002f16fe27e8
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 02:48:38 2024 +0000
+
+    Update history.html
+    
+    added motto and founding date to the banner
+
+commit 9095dfebbcfaff210b2862eca1c777fa0d6d575f
+Merge: 0e044f3 45feeb0
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 02:10:33 2024 +0000
+
+    Merge pull request #9 from hassantennn/remove-unncessary-branches-and-remove-comments
+    
+    Remove unncessary branches and remove comments
+
+commit 45feeb031f7d8f6d088b960933f1bf7ddec4fd6d
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 02:10:05 2024 +0000
+
+    Update visit.html
+    
+    removed unnecessary comments
+
+commit 4c0b36b3e8be518838b4a0b4019fbcd9a9a4ec7f
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 02:09:20 2024 +0000
+
+    Update index.html
+    
+    removed unnecessary comments
+
+commit 0e044f3ee81817721bdd2109e1c5f11d19dbbef1
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 01:57:53 2024 +0000
+
+    Update visit.html
+
+commit c2b06a3cee216a75a2f231c10498ef547c7fecda
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 01:47:53 2024 +0000
+
+    Update home.html
+
+commit d016bea027048830a5e8b24222b7819fc16d354e
+Merge: 0f17d46 8eafe8b
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 01:46:11 2024 +0000
+
+    Merge pull request #8 from hassantennn/Update-home
+    
+    Update home
+
+commit 8eafe8b1a1e36da280e41e669dedaaa44b2248f9
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 01:44:33 2024 +0000
+
+    Update history.html
+    
+    Didn't make many changes except for the banner and the navbar again. Used bootstrap to make the navbar and restyled the page using a bit of css, but that about it.
+
+commit b5d0d5b3e97e2a8b4fac8d440759e3674e7e75e3
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 01:41:32 2024 +0000
+
+    Update visit.html
+    
+    First I changed the banner, I added a font size that is compatible with bootstrap and is resized when shifting to a mobile phone, then I changed the background colour of the header to a blend in with 3 different colours that makes the banner look very attractive, I also added a thick border than makes the banner more attention seeking.
+    
+    I completely changed the navbar and also made it mobile compatible now. I used bootstrap classes to implement this new navbar menu. Obviously I had to add the MAIN page which wasn't there before as I was confused with what index.html was meant to really be.. anyways When you are using a mobile phone you will have to toggle this menu that will show you the different options you can select to move on different pages of the website.
+    
+    I changed the theme colours of my website completely, they went from grey to dark grey... or more like the colour #333 which is a colour taken from an editor.
+    
+    I remade the grid using bootstrap with a 7:5 column ration.. even though this doesn't hold for a mobile , it does hold for desktop. I used other properties that allow me to hover over the images and when I click these it takes me to a specific place in the page.
+    
+    I made mobile compatible text sizes using bootstrap. and also got to change the theme of the activity boxes below. Made it a lot cleaner and professional looking.
+
+commit 22eacf4cf1fdf2e4a936fa6eb56eccb89ab5d31f
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 01:35:45 2024 +0000
+
+    Add files via upload
+    
+    So this is the file I transferred from index.html and this one will be quite different to what it was before.. I added a lot of changes which I will be explaining.
+    
+    First I changed the banner, I added a font size that is compatible with bootstrap and is resized when shifting to a mobile phone, then I changed the background colour of the header to a blend in with 3 different colours that makes the banner look very attractive, I also added a thick border than makes the banner more attention seeking.
+    
+    I completely changed the navbar and also made it mobile compatible now. I used bootstrap classes to implement this new navbar menu. Obviously I had to add the MAIN page which wasn't there before as I was confused with what index.html was meant to really be.. anyways When you are using a mobile phone you will have to toggle this menu that will show you the different options you can select to move on different pages of the website.
+    
+    Other important changes I made is the map. I changed the image of the map with a static openstreetmap from its website. Previously, I did not realise that this was even a website but then I read the document and understood the requirements and imported the html link from the website and replaced my image.
+    Also I removed the google maps logo that took you to the website aswell. I changed the theme colours of my website completely, they went from grey to dark grey... or more like the colour #333 which is a colour taken from an editor.
+    
+    Thats it
+
+commit 536d78556346111ded2610f0900d9a7a0c79a547
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 01:35:15 2024 +0000
+
+    Delete home.html
+
+commit d839418fd14d44cfcbea3e12609927841704b782
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 01:35:00 2024 +0000
+
+    Add files via upload
+
+commit f5fcb6b740b23123bcd61824ed4e86e4b0435d61
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 01:34:23 2024 +0000
+
+    Delete Images/home.html
+
+commit 74620831651542f76f4e711dfcc9fff29d3e22f8
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 01:29:22 2024 +0000
+
+    Create home.html
+    
+    So this is the file I transferred from index.html and this one will be quite different to what it was before.. I added a lot of changes which I will be explaining.
+    
+    First I changed the banner, I added a font size that is compatible with bootstrap and is resized when shifting to a mobile phone, then I changed the background colour of the header to a blend in with 3 different colours that makes the banner look very attractive, I also added a thick border than makes the banner more attention seeking.
+    
+    I completely changed the navbar and also made it mobile compatible now. I used bootstrap classes to implement this new navbar menu. Obviously I had to add the MAIN page which wasn't there before as I was confused with what index.html was meant to really be.. anyways When you are using a mobile phone you will have to toggle this menu that will show you the different options you can select to move on different pages of the website.
+    
+    Other important changes I made is the map. I changed the image of the map with a static openstreetmap from its website. Previously, I did not realise that this was even a website but then I read the document and understood the requirements and imported the html link from the website and replaced my image.
+    Also I removed the google maps logo that took you to the website aswell.
+    
+    I changed the theme colours of my website completely, they went from grey to dark grey... or more like the colour #333 which is a colour taken from an editor.
+    
+    Thats it
+
+commit 49e75542796a002925d2eff4581ff1b061a726ad
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 01:20:08 2024 +0000
+
+    Update index.html
+    
+    I realised that Index.html was not supposed to be the home page so I created a different file named home.html and transferred the data there. Index.html will basically just be the banner with a navbar using bootstrap and an image of the city.
+    
+    As I mentioned earlier I used bootstrap.. and did that to redesign the navbar and some other functionalities ,for example, in the banner I use a specific font size symbol names vw this is recognised by bootstrap and makes the font-size to reduce in size when you use a mobile phone
+
+commit 0952805b341626e75a52b941aa67cf8443bedc3a
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 01:15:59 2024 +0000
+
+    Update index.html
+
+commit 0f17d466ec43b20e69b2ea467d970ea8d7a8a374
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 00:35:42 2024 +0000
+
+    Add files via upload
+
+commit 915e635ea8f346dbc9ec291b250abfff697f8d50
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Sun Mar 17 00:32:45 2024 +0000
+
+    Delete Images directory
+
+commit 5a12d3cd47ec2f2c555d00c3e68548af341a9ad5
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Fri Mar 15 17:09:03 2024 +0000
+
+    Update visit.html
+
+commit eaa6c1173a0fabebea4110807aeb1932bdf23bd4
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Fri Mar 15 17:08:24 2024 +0000
+
+    Update history.html
+
+commit f91531e392a95e83a5d4792eefec80d05302d62f
+Merge: 85fada4 d01fcb3
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Fri Mar 15 16:56:27 2024 +0000
+
+    Merge pull request #7 from hassantennn/completely-changing-visit-html-document
+    
+    Update visit.html
+
+commit d01fcb3ad1162ec4f95260d2d9eef825458fb95b
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Fri Mar 15 16:55:49 2024 +0000
+
+    Update visit.html
+
+commit 85fada41669afb32ac2f0da07f558a630d4079f0
+Merge: 24dabdb ca42afc
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Fri Mar 15 16:54:09 2024 +0000
+
+    Merge pull request #6 from hassantennn/Completely-changing-the-history-html-document
+    
+    Update history.html
+
+commit ca42afc0919e057fa50a59142bb188ecc37a4a65
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Fri Mar 15 16:53:51 2024 +0000
+
+    Update history.html
+
+commit 24dabdb41781f53e2f467354b16e4fd8fc07d831
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Fri Mar 15 16:26:51 2024 +0000
+
+    Add files via upload
+
+commit 3b8405d51ed1031e0772a68f8657ab325defe2b8
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 16:15:25 2024 +0000
+
+    Update visit.html
+
+commit 960e2b660cd6ab16061dec9c053aa778c2b3a7de
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 16:14:47 2024 +0000
+
+    Update history.html
+
+commit 41ef6700c98d60caf3e81869c038f4e6165b8858
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 16:14:07 2024 +0000
+
+    Update index.html
+
+commit 8a3412effc9b0611a998975c888b757a40a38674
+Merge: bba8a45 a2f7d1b
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 13:30:51 2024 +0000
+
+    Merge pull request #5 from hassantennn/home-page-optimisation
+    
+    Home page optimisation
+
+commit a2f7d1be08570e342f37d2745736a5b747fc97e6
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 13:30:30 2024 +0000
+
+    Update index.html
+
+commit 3d1738bd569e0e489c0f6db003146ddd511539ad
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 13:29:51 2024 +0000
+
+    Update index.html
+
+commit bba8a45878ad044d666594449b0d8811adcb4ec8
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 09:49:50 2024 +0000
+
+    Update visit.html
+
+commit 662dba7118fd441ce21906dd024b4885fde0772a
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 09:18:12 2024 +0000
+
+    Add files via upload
+
+commit 5e77155bd74e4a62140c9aee3e5dce12f8261af2
+Merge: fe0323d 40d2b2c
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 09:12:49 2024 +0000
+
+    Merge pull request #4 from hassantennn/Further-adding-more-Boxes-in-history-file
+    
+    Further adding more boxes in history file
+
+commit 40d2b2c9f6abf2a9b9bdfc1c02dfb1418dcecba5
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 09:12:25 2024 +0000
+
+    Update history.html
+
+commit 073d96a332c270e9c893e09381a946027899ab5e
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 09:12:02 2024 +0000
+
+    Update history.html
+
+commit fe0323d8568f7edec5af0478dc645a23ec9cdc48
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 09:10:57 2024 +0000
+
+    Add files via upload
+
+commit d4d48148c962e422e3e4896d9ed2a9f12ec17a33
+Merge: b03f5ee 07a0ee3
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 08:58:21 2024 +0000
+
+    Merge pull request #3 from hassantennn/Adding-Styling-to-Navigation
+    
+    Update index.html
+
+commit 07a0ee39e9534b9f8d16746db6ea1c6a533c3630
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 08:57:49 2024 +0000
+
+    Update index.html
+
+commit b03f5eecf226e90ee9172d7a2dc48282271c874a
+Merge: 36eb0d2 b719cc8
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 08:55:34 2024 +0000
+
+    Merge pull request #2 from hassantennn/Adding-Banner-and-Logo
+    
+    Adding banner and logo
+
+commit b719cc88b55292277bfe368aa5622909c51c37ba
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 08:54:52 2024 +0000
+
+    Update index.html
+
+commit 49b3218c5d97d3858819a343e5c004902b61d366
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 08:53:18 2024 +0000
+
+    Update index.html
+
+commit 36eb0d2d812101914c6b6bb7a5a0132857f69d91
+Merge: 1033d15 4484d49
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 08:51:09 2024 +0000
+
+    Merge pull request #1 from hassantennn/Adding-Styles-and-Basic-Navigation
+    
+    Adding styles and basic navigation
+
+commit 4484d4940578d3f66a4f4172a2d605738d10ed8b
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 08:47:31 2024 +0000
+
+    Update index.html
+
+commit 2a73fac408be81cd26a23b21850e3ead64648cd9
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 08:39:14 2024 +0000
+
+    Update index.html
+
+commit 1033d156cbcf81bcd5f7a49c05967a60fe8efe49
+Author: Muhammad Hassan <158739616+hassantennn@users.noreply.github.com>
+Date:   Thu Mar 14 08:38:10 2024 +0000
+
+    Add files via upload
